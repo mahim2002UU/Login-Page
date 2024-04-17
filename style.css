@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-image: url(https://cdn.sanity.io/images/tlr8oxjg/production/f2fb25c9cafe100e220f0caf70f92cf19a6ec3dc-1456x816.png?w=3840&q=100&fit=clip&auto=format);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: rgb(186, 242, 18);
+    font-family: Arial;
+    float: left;
+    padding-top: 10px;
+    font-size: 35px;
+    padding-left: 20px;
+}
+.menu{
+   width: 300px;
+   float: left;
+   height: 50px; 
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 15px;
+}
+ul li a{
+    color: chartreuse;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: blueviolet;
+}
+
+.search{
+    width: 330px ;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 230px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid purple;
+    margin-top: 13px;
+    color: aliceblue;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: purple;
+    border: 2px solid purple;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.contant{
+    width: 800px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.contant .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.contant h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px ;
+    margin-top: 9% ;
+    letter-spacing: 2px;
+}
+.contant .cn{
+    width: 100px;
+    height: 35px;
+    background: palevioletred;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.contant .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+.cn:hover{
+    background-color: aliceblue;
+}
+
+.form{
+    width: 250px;
+    height: 350px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    padding: 20px;
+    position: absolute;
+    top: -25px;
+    left: 800px;
+    border-radius: 10px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    background-color: palevioletred;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid purple;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+.form input:focus{
+    outline: none;
+
+}
+::placeholder{
+    color: aliceblue;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: purple;
+    margin-top: 30px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    transition: 0.4 ease;
+}
+.btnn:hover{
+    background: rgb(195, 91, 91);
+    color: purple;
+}
+.btnn a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: rgb(251, 0, 255);
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
